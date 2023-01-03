@@ -17,17 +17,7 @@ programa
 			escreva("\nO número " , numero , " é ímpar e negativo!")
 			}
 		
-		escreva("\nDigite um número: ")
-		leia(numero)
-
-		se (numero % 2 == 0 )
-			{
-			escreva("\nO número " , numero , " é par e positivo!")
-			}
-		senao 
-			{
-			escreva("\nO número " , numero , " é ímpar e negativo!")
-			}
+		
 	}
 			
 
@@ -37,7 +27,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 328; 
+ * @POSICAO-CURSOR = 282; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
