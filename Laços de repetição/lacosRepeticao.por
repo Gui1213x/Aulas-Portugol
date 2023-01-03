@@ -22,6 +22,25 @@ programa
 		
 			escreva("\nTemos: ",somaPar," numeros pares...")
 			escreva("\nTemos: ",somaImpar," numeros impares...")
+			
+			
+			// exercio 1 
+			
+			inteiro tabuada,x=1,resultado
+		escreva("\nQual a tabuada que deseja visualizar?")
+		leia(tabuada)
+		enquanto(tabuada<1 ou tabuada>10)
+		{
+			escreva("\nDigite um numero interiro entre 1 a 10 ")
+			leia(tabuada)
+			}
+		faca 
+		{ 
+			resultado = tabuada * x 
+			escreva("\n",tabuada," X ",x," = ",resultado)
+			x++ 
+		}
+		enquanto(x<=10)
 	}
 	
 }
