@@ -1,33 +1,29 @@
 programa
 {
 	
-	funcao  inicio ()
+	funcao inicio()
 	{
 		inteiro numero 
-		escreva("\nDigite um número: ")
-		leia(numero)
-		
-
-		se (numero % 2 == 0 )
-			{
-			escreva("\nO número " , numero , " é par e positivo!")
-			}
-		senao 
-			{
-			escreva("\nO número " , numero , " é ímpar e negativo!")
-			}
-		
-		
+        escreva("\n Digite um número para descobrir se ele é par ou ímpar ")
+        leia(numero)
+        se(numero % 2 == 1)
+        {
+            escreva("\nImpar")
+            escreva("\nNegaftivo")
+        }
+        senao
+        {
+            escreva("\nPar")
+            escreva("\nPositivo")
+        }
 	}
-			
-
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 282; 
+ * @POSICAO-CURSOR = 362; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
